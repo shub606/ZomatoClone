@@ -1,0 +1,217 @@
+
+/* ******************************** Header Start *********************************************** */
+.logo img {
+  width: 8rem;
+  padding: 15px;
+}
+
+/* location icon */
+.material-symbols-outlined {
+  color: rgb(255, 126, 139);
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.navBar {
+  border: 1px solid silver;
+  display: flex;
+  align-items: center;
+  /* border-radius: 11px; */
+  height: 3.2rem;
+  background: rgb(255, 255, 255);
+  border-radius: 0.8rem;
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+  border: 1px solid rgb(232, 232, 232);
+  width: 44%;
+  /* position: absolute; */
+  /* top: 14%;
+  left: 27rem;
+  transform: translate(1px, -52%); */
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.locationSearchTab {
+  display: flex;
+  padding: 5px;
+  border: none;
+}
+
+/* downArrow */
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.inputSearch {
+  outline: none;
+  border: none;
+}
+
+/* SeacrhLens */
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.ProductSearch {
+  display: flex;
+  align-items: center;
+}
+
+.restaurantSearch {
+  border: none;
+  outline: none;
+}
+
+.userDetails {
+  display: flex;
+  align-items: center;
+}
+
+.userNameButton {
+  border: none;
+  color: #fff;
+  background-color: #f19adbc9;
+  border-radius: 50%;
+  height: 37px;
+  font-size: 20px;
+  width: 3.1rem;
+  height: 3rem;
+}
+
+.userName {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0px 0.5rem;
+  color: rgb(28, 28, 28);
+}
+
+/* ************************* Cards Start *********************************************** */
+
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+  .MainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 38px; */
+    column-gap: 31px;
+    row-gap: 13px;
+    /* gap: 8px; */
+    padding: 10px;
+  }
+  p {
+    margin: 0px;
+    font-size: .8rem;
+  }
+  .Card {
+    padding: 5px;
+    width: 24rem;
+    border: 1px solid silver;
+    border-radius: 1.3rem;
+    font-family: Okra, Helvetica, sans-serif;
+  }
+  .ProductImg {
+    position: relative;
+    padding: 6px;
+  }
+  .img {
+    border-radius: 0.75rem;
+    width: 23rem;
+  }
+  .ProductDiscount {
+    position: absolute;
+    font-size: 1.1rem;
+    background: rgb(37, 111, 239);
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    bottom: 2.5rem;
+    margin: 0px;
+    padding: 2px;
+  }
+
+  .ProductDetail {
+    display: flex;
+    justify-content: space-between;
+    width: 23rem;
+    padding: 6px;
+  }
+  .ProductBrand {
+    font-weight: 530;
+    font-size: 1.3rem;
+    color: rgb(28, 28, 28);
+  }
+  .ProductType {
+    display: flex;
+    justify-content: space-between;
+    width: 23rem;
+    padding: 6px;
+  }
+  .PrductTypeDetails {
+    font-weight: 530;
+    font-size:  0.8rem;
+    color: rgb(105, 105, 105);
+  }
+  .ProductTypeCost {
+    font-weight: 530;
+    font-size: 1.2rem;
+    color: rgb(105, 105, 105);
+  }
+  .DelevreyTime {
+    display: flex;
+    padding: 6px;
+    justify-content: end;
+  }
+  .ProductDeleveryTime {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: rgb(54, 54, 54);
+  }
+
+  /* ****************************** Footer ******************************************************* */
+
+  body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 100px;
+     height: auto; 
+     padding: 15px;
+}
+
+.footer-links ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 0 20px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyright {
+    margin-top: 20px;
+}

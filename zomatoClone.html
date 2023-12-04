@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZomatoClone</title>
+    <link rel="stylesheet" href="zomatoClone.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+
+  <body>
+    <!-- ********************************* Header Start ******************************      -->
+    <div class="header">
+      <div class="logo">
+        <img
+          src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"
+          alt=""
+        />
+      </div>
+      <nav class="navBar">
+        <div class="locationSearchTab">
+          <span class="material-symbols-outlined"> location_on </span>
+          <input
+            class="inputSearch"
+            type="search"
+            placeholder="Search location"
+          />
+          <span class="material-symbols-outlined"> arrow_drop_down </span>
+        </div>
+        <div class="ProductSearch">
+          <span class="material-symbols-outlined"> search </span>
+          <input
+            class="restaurantSearch"
+            type="search"
+            placeholder="Search for restaurant"
+          />
+        </div>
+      </nav>
+
+      <div class="userDetails">
+        <button class="userNameButton">S</button>
+        <p class="userName">Shubham</p>
+      </div>
+    </div>
+
+    <!-- ******************************** Header End ************************************************ -->
+
+    <!-- ******************************** Cards Start ************************************************ -->
+    <div class="MainContainer" id="Conatiner">
+      <!-- <div class="Card">
+          <div class="ProductImg">
+            <img
+              class="img"
+              src="https://b.zmtcdn.com/data/pictures/chains/5/2600025/edc92b9e7877ea851a3d6f1190d1580f_o2_featured_v2.jpg"
+              alt=""
+            />
+            <p class="ProductDiscount">70%OFF</p>
+          </div> 
+
+           <div class="ProductDetail">
+            <p class="ProductBrand">Pizza Hut</p>
+            <p class="rating">3.3</p>
+          </div>
+
+           <div class="ProductType">
+            <p class="PrductTypeDetails">Pizza,Fast Food,Pasta</p>
+            <p class="">200 For One</p>
+          </div> 
+           <div class="DelevreyTime">
+            <p class="ProductDeleveryTime">40Min</p>
+          </div> 
+         </div> -->
+    </div>
+
+    <!-- ****************************** Footer **************************************************    -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img
+            src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"
+            alt="Zomato Logo"
+          />
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">&copy; 2023 Zomato Clone</div>
+    </footer>
+  </body>
+  <script>
+    let MainContainer = document.getElementById("Conatiner");
+    fetch("./zomatoJson.json")
+      .then((Response) => Response.json())
+      .then((zomatoJson) => {
+        console.log("json data fetched successfully :", zomatoJson);
+
+        for (let i of zomatoJson) {
+          let zomatoCardDiv = document.createElement("div"); //creating div
+          zomatoCardDiv.className = "Card"; // assigning Class Name
+
+          //****************** Creating Product Image div and their Elements from here ******************
+
+          let Pimgdiv = document.createElement("div"); //creating div in which image and discount is available
+          Pimgdiv.className = "ProductImg"; // assigning Class Name
+
+          let pimg = document.createElement("img"); //creating image tag
+          pimg.className = "img"; // assigning Class Name
+          pimg.src = i.imgUrl; // mapping image tag src attribute to json imgae url
+
+          let pdiscount = document.createElement("p"); //creating p tag
+          pdiscount.className = "ProductDiscount"; // assigning Class Name
+          pdiscount.innerText = i.productDiscount; // Mapping and assining the paragarph data from json
+
+          Pimgdiv.append(pimg, pdiscount);
+          zomatoCardDiv.append(Pimgdiv);
+
+          //****************** Creating Product Derails div and their Elements from here ******************
+
+          let zomatoCardProductDetail = document.createElement("div");
+          zomatoCardProductDetail.className = "ProductDetail";
+
+          let zomatoCardproductBrand = document.createElement("p");
+          zomatoCardproductBrand.className = "ProductBrand";
+          zomatoCardproductBrand.innerText = i.productBrand;
+
+          let zomatoCardProductRating = document.createElement("p");
+          zomatoCardProductRating.className = "rating";
+          zomatoCardProductRating.innerText = i.productRating;
+
+          zomatoCardProductDetail.append(
+            zomatoCardproductBrand,
+            zomatoCardProductRating
+          );
+          zomatoCardDiv.append(zomatoCardProductDetail);
+
+          //****************** Creating Delevery time div and their Elements from here ****************************
+          let CardProductType = document.createElement("div");
+          CardProductType.className = "ProductType";
+
+          let CardProductTypeDetail = document.createElement("p");
+          CardProductTypeDetail.className = "PrductTypeDetails";
+          CardProductTypeDetail.innerText = i.productDescription;
+
+          let CardProductTypeCost = document.createElement("p");
+          // CardProductTypeCost.className = "rating";
+          CardProductTypeCost.innerText = i.productDescription;
+
+          CardProductType.append(CardProductTypeDetail, CardProductTypeCost);
+          zomatoCardDiv.append(CardProductType);
+
+          //****************** Creating Delevery time div and their Elements from here ******************
+          let CardProductDelevery = document.createElement("div");
+          CardProductDelevery.className = "DelevreyTime";
+
+          let CardProductDeleveryTime = document.createElement("p");
+          CardProductDeleveryTime.className = "ProductDeleveryTime";
+          CardProductDeleveryTime.innerText = i.productDeliveryTime;
+
+          CardProductDelevery.append(CardProductDeleveryTime);
+          zomatoCardDiv.append(CardProductDelevery);
+
+          //****************** Adding All card div into main Container Div from here ******************
+
+          MainContainer.append(zomatoCardDiv);
+        }
+
+        // let cardContainer = document.getElementById("Conatiner");
+        // zomatoJson.forEach(restaurant => {
+        //     const card = document.createElement('div');
+        //     card.innerHTML = `
+        //         <img src="${restaurant.imgUrl}" alt="${restaurant.productBrand}">
+        //         <h2>${restaurant.productBrand}</h2>
+        //         <p>${restaurant.productDescription}</p>
+        //         <p>Rating: ${restaurant.productRating}</p>
+        //         <p>Discount: ${restaurant.productDiscount}</p>
+        //         <p>Delivery Time: ${restaurant.productDeliveryTime}</p>
+        //         <p>Cost for One: ${restaurant.productTypeCost}</p>
+        //     `;
+
+        //     cardContainer.appendChild(card);
+        // })
+      })
+      .catch((error) => {
+        console.log("Error in Fetching Json data :", error);
+      });
+  </script>
+</html>

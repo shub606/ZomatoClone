@@ -1,0 +1,202 @@
+[
+    {
+        "id": "001",
+        "imgUrl": "https://b.zmtcdn.com/data/pictures/chains/5/2600025/edc92b9e7877ea851a3d6f1190d1580f_o2_featured_v2.jpg",
+        "productDiscount": "70% OFF",
+        "productBrand": "Pizza Hut",
+        "productRating": "3.3",
+        "productDescription": "Pizza, Fast Food, Pasta",
+        "productTypeCost": "200 For One",
+        "productDeliveryTime": "40 Min"
+    },
+    {
+        "id": "002",
+        "imgUrl": "https://b.zmtcdn.com/data/dish_photos/a6e/c7891591aa6433fdcbe516813a020a6e.jpg?output-format=webp",
+        "productDiscount": "60% OFF",
+        "productBrand": "Burger King",
+        "productRating": "4.2",
+        "productDescription": "Burgers, Fries, Milkshakes",
+        "productTypeCost": "150 For One",
+        "productDeliveryTime": "35 Min"
+    },
+    {
+        "id": "003",
+        "imgUrl": "https://b.zmtcdn.com/data/dish_photos/a6e/c7891591aa6433fdcbe516813a020a6e.jpg?output-format=webp",
+        "productDiscount": "50% OFF",
+        "productBrand": "McDonald's",
+        "productRating": "4.0",
+        "productDescription": "Burgers, Nuggets, Salads",
+        "productTypeCost": "120 For One",
+        "productDeliveryTime": "30 Min"
+    },
+    {
+        "id": "004",
+        "imgUrl": "https://b.zmtcdn.com/data/dish_photos/a6e/c7891591aa6433fdcbe516813a020a6e.jpg?output-format=webp",
+        "productDiscount": "55% OFF",
+        "productBrand": "Subway",
+        "productRating": "4.1",
+        "productDescription": "Subs, Sandwiches, Wraps",
+        "productTypeCost": "180 For One",
+        "productDeliveryTime": "25 Min"
+    },
+    {
+        "id": "005",
+        "imgUrl": "https://b.zmtcdn.com/data/dish_photos/a6e/c7891591aa6433fdcbe516813a020a6e.jpg?output-format=webp",
+        "productDiscount": "45% OFF",
+        "productBrand": "KFC",
+        "productRating": "3.9",
+        "productDescription": "Fried Chicken, Burgers",
+        "productTypeCost": "170 For One",
+        "productDeliveryTime": "30 Min"
+    },
+    {
+        "id": "006",
+        "imgUrl": "https://b.zmtcdn.com/data/dish_photos/a6e/c7891591aa6433fdcbe516813a020a6e.jpg?output-format=webp",
+        "productDiscount": "60% OFF",
+        "productBrand": "Domino's Pizza",
+        "productRating": "4.3",
+        "productDescription": "Pizza, Fast Food",
+        "productTypeCost": "190 For One",
+        "productDeliveryTime": "35 Min"
+    },
+    {
+        "id": "007",
+        "imgUrl": "https://b.zmtcdn.com/data/dish_photos/a6e/c7891591aa6433fdcbe516813a020a6e.jpg?output-format=webp",
+        "productDiscount": "50% OFF",
+        "productBrand": "Starbucks",
+        "productRating": "4.4",
+        "productDescription": "Coffee, Beverages, Snacks",
+        "productTypeCost": "100 For One",
+        "productDeliveryTime": "20 Min"
+    },
+    {
+        "id": "008",
+        "imgUrl": "https://b.zmtcdn.com/data/dish_photos/a6e/c7891591aa6433fdcbe516813a020a6e.jpg?output-format=webp",
+        "productDiscount": "65% OFF",
+        "productBrand": "Dunkin' Donuts",
+        "productRating": "4.0",
+        "productDescription": "Donuts, Coffee",
+        "productTypeCost": "80 For One",
+        "productDeliveryTime": "25 Min"
+    },
+    {
+        "id": "009",
+        "imgUrl": "https://b.zmtcdn.com/data/dish_photos/a6e/c7891591aa6433fdcbe516813a020a6e.jpg?output-format=webp",
+        "productDiscount": "40% OFF",
+        "productBrand": "Taco Bell",
+        "productRating": "3.7",
+        "productDescription": "Tacos, Burritos, Nachos",
+        "productTypeCost": "160 For One",
+        "productDeliveryTime": "30 Min"
+    },
+    {
+        "id": "010",
+        "imgUrl": "https://b.zmtcdn.com/data/dish_photos/a6e/c7891591aa6433fdcbe516813a020a6e.jpg?output-format=webp",
+        "productDiscount": "55% OFF",
+        "productBrand": "Panda Express",
+        "productRating": "3.8",
+        "productDescription": "Chinese, Fast Food",
+        "productTypeCost": "150 For One",
+        "productDeliveryTime": "35 Min"
+    },
+    {
+        "id": "011",
+        "imgUrl": "https://b.zmtcdn.com/data/dish_photos/a6e/c7891591aa6433fdcbe516813a020a6e.jpg?output-format=webp",
+        "productDiscount": "60% OFF",
+        "productBrand": "Panera Bread",
+        "productRating": "4.1",
+        "productDescription": "Bakery, Sandwiches, Soups",
+        "productTypeCost": "130 For One",
+        "productDeliveryTime": "30 Min"
+    },
+    {
+        "id": "012",
+        "imgUrl": "https://b.zmtcdn.com/data/dish_photos/a6e/c7891591aa6433fdcbe516813a020a6e.jpg?output-format=webp",
+        "productDiscount": "45% OFF",
+        "productBrand": "Denny's",
+        "productRating": "4.2",
+        "productDescription": "American, Breakfast, Burgers",
+        "productTypeCost": "140 For One",
+        "productDeliveryTime": "25 Min"
+    },
+    {
+        "id": "013",
+        "imgUrl": "https://b.zmtcdn.com/data/dish_photos/a6e/c7891591aa6433fdcbe516813a020a6e.jpg?output-format=webp",
+        "productDiscount": "70% OFF",
+        "productBrand": "Chick-fil-A",
+        "productRating": "4.4",
+        "productDescription": "Chicken Sandwiches, Nuggets",
+        "productTypeCost": "170 For One",
+        "productDeliveryTime": "20 Min"
+    },
+    {
+        "id": "014",
+        "imgUrl": "https://b.zmtcdn.com/data/dish_photos/a6e/c7891591aa6433fdcbe516813a020a6e.jpg?output-format=webp",
+        "productDiscount": "50% OFF",
+        "productBrand": "Papa John's",
+        "productRating": "3.9",
+        "productDescription": "Pizza, Fast Food",
+        "productTypeCost": "180 For One",
+        "productDeliveryTime": "35 Min"
+    },
+    {
+        "id": "015",
+        "imgUrl": "https://b.zmtcdn.com/data/dish_photos/a6e/c7891591aa6433fdcbe516813a020a6e.jpg?output-format=webp",
+        "productDiscount": "55% OFF",
+        "productBrand": "TGI Fridays",
+        "productRating": "4.0",
+        "productDescription": "American, BBQ, Burgers",
+        "productTypeCost": "190 For One",
+        "productDeliveryTime": "30 Min"
+    },
+    {
+        "id": "016",
+        "imgUrl": "https://b.zmtcdn.com/data/dish_photos/a6e/c7891591aa6433fdcbe516813a020a6e.jpg?output-format=webp",
+        "productDiscount": "40% OFF",
+        "productBrand": "Olive Garden",
+        "productRating": "4.3",
+        "productDescription": "Italian, Pasta, Salad",
+        "productTypeCost": "150 For One",
+        "productDeliveryTime": "25 Min"
+    },
+    {
+        "id": "017",
+        "imgUrl": "https://b.zmtcdn.com/data/dish_photos/a6e/c7891591aa6433fdcbe516813a020a6e.jpg?output-format=webp",
+        "productDiscount": "65% OFF",
+        "productBrand": "Red Lobster",
+        "productRating": "3.8",
+        "productDescription": "Seafood, Lobster, Shrimp",
+        "productTypeCost": "160 For One",
+        "productDeliveryTime": "35 Min"
+    },
+    {
+        "id": "018",
+        "imgUrl": "https://b.zmtcdn.com/data/dish_photos/a6e/c7891591aa6433fdcbe516813a020a6e.jpg?output-format=webp",
+        "productDiscount": "70% OFF",
+        "productBrand": "Texas Roadhouse",
+        "productRating": "4.1",
+        "productDescription": "Steakhouse, Ribs, Burgers",
+        "productTypeCost": "120 For One",
+        "productDeliveryTime": "30 Min"
+    },
+    {
+        "id": "019",
+        "imgUrl": "https://b.zmtcdn.com/data/dish_photos/a6e/c7891591aa6433fdcbe516813a020a6e.jpg?output-format=webp",
+        "productDiscount": "50% OFF",
+        "productBrand": "Cheesecake Factory",
+        "productRating": "4.2",
+        "productDescription": "American, Desserts",
+        "productTypeCost": "100 For One",
+        "productDeliveryTime": "20 Min"
+    },
+    {
+        "id": "020",
+        "imgUrl": "https://b.zmtcdn.com/data/dish_photos/a6e/c7891591aa6433fdcbe516813a020a6e.jpg?output-format=webp",
+        "productDiscount": "60% OFF",
+        "productBrand": "Wendy's",
+        "productRating": "3.7",
+        "productDescription": "Burgers, Fries, Salads",
+        "productTypeCost": "80 For One",
+        "productDeliveryTime": "25 Min"
+    }
+]
